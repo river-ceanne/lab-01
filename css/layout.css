@@ -1,11 +1,9 @@
 .e{
 float: left;
-margin-right: 3px;
 }
 
 .g{
   float: left;
-  margin-right: 3px;
 }
 
 /**********************************/
@@ -31,25 +29,30 @@ margin-right: 3px;
 
   .a {
     margin-left: 8px;
+    background-color: blue;
     }
 
   .b {
     float: left;
     margin-right: 4px;
     margin-top: 3px;
+    background-color: pink;
   }
 
   .c {
     float: left;
+    background-color: yellow;
   }  
 
   .d {
     float: right;
     margin-right: 9px;
+    background-color: green;
   }
 
   .e {
     float: left;
+    background-color: bisque;
   }
 
   .f {
@@ -59,53 +62,73 @@ margin-right: 3px;
   
   .g {
     float: left;
+    background-color: lightcoral;
   }
 
   .h {
     float: right;
     margin-right: 4px;
+    background-color: lightskyblue;
   }
 
-  .a img {
-    content: url(https://via.placeholder.com/960x100?text=A);
+  .a span {
     margin-top: 5px;
+    background-color: lightgoldenrodyellow;
+    width: 960px;
+    height: 250px; 
   }
   
-  .b img {
-    content: url(https://via.placeholder.com/200x600?text=B);
+  .b span {
+    background-color: cadetblue;
+    width: 200px;
+    height: 600px; 
   }
   
-  .c img {
-    content: url(https://via.placeholder.com/380x200?text=C);
-  }
-  
-  
-  .d img {
-    content: url(https://via.placeholder.com/380x200?text=D);
-  }
-  
-  
-  .e img {
-    content: url(https://via.placeholder.com/190x250?text=E);
+  .c span {
+    background-color: oldlace;
+    width: 380px;
+    height: 200px; 
   }
   
   
-  .f img {
-    content: url(https://via.placeholder.com/190x250?text=F);
+  .d span {
+    background-color: yellowgreen;
+    width: 380px;
+    height: 200px; 
   }
   
   
-  .g img {
-    content: url(https://via.placeholder.com/190x250?text=G);
+  .e span{
+    background-color: mediumvioletred;
+    width: 190px;
+    height: 250px; 
   }
   
   
-  .h img {
-    content: url(https://via.placeholder.com/190x250?text=H);
+  .f span {
+    background-color: orange;
+    width: 190px;
+    height: 250px; 
   }
   
-  .i img {
-    content: url(https://via.placeholder.com/760x150?text=I);
+  
+  .g span {
+    background-color: magenta;
+    width: 190px;
+    height: 250px; 
+  }
+  
+  
+  .h span {
+    background-color: rebeccapurple;
+    width: 190px;
+    height: 250px; 
+  }
+  
+  .i span {
+    height: 150px;
+    width: 760;
+    background-color: skyblue;
     margin-left: 5px;
   }
 
