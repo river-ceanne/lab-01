@@ -21,20 +21,22 @@ margin-right: 3px;
   margin-right: auto;
   display: block;
   width: 978px;
+  background-color: darkgray;
   }
 
   * {
-    outline: 2px solid darkgray;
+    outline: 5px solid darkgray;
     outline-offset: -1px;
   }
 
   .a {
     margin-left: 8px;
-  }
+    }
 
   .b {
     float: left;
     margin-right: 4px;
+    margin-top: 3px;
   }
 
   .c {
@@ -61,11 +63,12 @@ margin-right: 3px;
 
   .h {
     float: right;
-    margin-right: 3px;
+    margin-right: 4px;
   }
 
   .a img {
     content: url(https://via.placeholder.com/960x100);
+    margin-top: 5px;
   }
   
   .b img {
@@ -103,6 +106,7 @@ margin-right: 3px;
   
   .i img {
     content: url(https://via.placeholder.com/760x150);
+    margin-left: 5px;
   }
 
 }
