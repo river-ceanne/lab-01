@@ -1,19 +1,68 @@
+.e{
+float: left;
+margin-right: 3px;
+}
 
+.g{
+  float: left;
+  margin-right: 3px;
+}
+
+/**********************************/
 
 @media all and (min-width: 768px) {
 
   body{
-    background-color: aqua;
+    background-color: whitesmoke;
   }
-
 
   main{
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 960px;
+  width: 978px;
   }
 
+  * {
+    outline: 2px solid darkgray;
+    outline-offset: -1px;
+  }
+
+  .a {
+    margin-left: 8px;
+  }
+
+  .b {
+    float: left;
+    margin-right: 4px;
+  }
+
+  .c {
+    float: left;
+  }  
+
+  .d {
+    float: right;
+    margin-right: 9px;
+  }
+
+  .e {
+    float: left;
+  }
+
+  .f {
+    float: left;
+    margin-right: 4px;
+  }
+  
+  .g {
+    float: left;
+  }
+
+  .h {
+    float: right;
+    margin-right: 3px;
+  }
 
   .a img {
     content: url(https://via.placeholder.com/960x100);
@@ -24,36 +73,36 @@
   }
   
   .c img {
-    content: url(https://via.placeholder.com/480x125);
+    content: url(https://via.placeholder.com/380x200);
   }
   
   
   .d img {
-    content: url(https://via.placeholder.com/480x125);
+    content: url(https://via.placeholder.com/380x200);
   }
   
   
   .e img {
-    content: url(https://via.placeholder.com/240x250);
+    content: url(https://via.placeholder.com/190x250);
   }
   
   
   .f img {
-    content: url(https://via.placeholder.com/240x250);
+    content: url(https://via.placeholder.com/190x250);
   }
   
   
   .g img {
-    content: url(https://via.placeholder.com/240x250);
+    content: url(https://via.placeholder.com/190x250);
   }
   
   
   .h img {
-    content: url(https://via.placeholder.com/240x250);
+    content: url(https://via.placeholder.com/190x250);
   }
   
   .i img {
-    content: url(https://via.placeholder.com/480x80);
+    content: url(https://via.placeholder.com/760x150);
   }
 
 }
