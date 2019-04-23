@@ -18,64 +18,45 @@ float: left;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 978px;
+  width: 960px;
   background-color: darkgray;
   }
 
-  * {
-    outline: 5px solid darkgray;
-    outline-offset: -1px;
-  }
-
-  .a {
-    margin-left: 8px;
-    background-color: blue;
-    }
 
   .b {
     float: left;
-    margin-right: 4px;
-    margin-top: 3px;
-    background-color: pink;
   }
 
   .c {
     float: left;
-    background-color: yellow;
   }  
 
   .d {
     float: right;
-    margin-right: 9px;
-    background-color: green;
   }
 
   .e {
     float: left;
-    background-color: bisque;
   }
 
   .f {
     float: left;
-    margin-right: 4px;
   }
   
   .g {
     float: left;
-    background-color: lightcoral;
   }
 
   .h {
     float: right;
-    margin-right: 4px;
-    background-color: lightskyblue;
   }
 
   .a span {
     margin-top: 5px;
     background-color: lightgoldenrodyellow;
     width: 960px;
-    height: 250px; 
+    height: 100px; 
+    text-anchor: middle;
   }
   
   .b span {
@@ -125,11 +106,10 @@ float: left;
     height: 250px; 
   }
   
-  .i span {
+  .i span{
+    background-color: darkgreen;
     height: 150px;
     width: 760;
-    background-color: skyblue;
-    margin-left: 5px;
   }
 
 }
