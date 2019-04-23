@@ -8,3 +8,8 @@ main{
   margin-right: auto;
   display: block;
 }
+
+p{
+  position: relative;
+  top: 50%;
+}

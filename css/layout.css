@@ -55,8 +55,7 @@ float: left;
     margin-top: 5px;
     background-color: lightgoldenrodyellow;
     width: 960px;
-    height: 100px; 
-    text-anchor: middle;
+    height: 100px;
   }
   
   .b span {
@@ -70,7 +69,6 @@ float: left;
     width: 380px;
     height: 200px; 
   }
-  
   
   .d span {
     background-color: yellowgreen;
@@ -106,10 +104,10 @@ float: left;
     height: 250px; 
   }
   
-  .i span{
+  .j span{
     background-color: darkgreen;
+    width: 760px;
     height: 150px;
-    width: 760;
   }
 
 }
