@@ -1,40 +1,40 @@
 .a img {
-  content: url(https://via.placeholder.com/480x75);
+  content: url(https://via.placeholder.com/480x75?text=A);
 }
 
 .b img {
-  content: url(https://via.placeholder.com/480x150);
+  content: url(https://via.placeholder.com/480x150?text=B);
 }
 
 .c img {
-  content: url(https://via.placeholder.com/480x125);
+  content: url(https://via.placeholder.com/480x125?text=C);
 }
 
 
 .d img {
-  content: url(https://via.placeholder.com/480x125);
+  content: url(https://via.placeholder.com/480x125?text=D);
 }
 
 
 .e img {
-  content: url(https://via.placeholder.com/240x250);
+  content: url(https://via.placeholder.com/240x250?text=E);
 }
 
 
 .f img {
-  content: url(https://via.placeholder.com/240x250);
+  content: url(https://via.placeholder.com/240x250?text=F);
 }
 
 
 .g img {
-  content: url(https://via.placeholder.com/240x250);
+  content: url(https://via.placeholder.com/240x250?text=G);
 }
 
 
 .h img {
-  content: url(https://via.placeholder.com/240x250);
+  content: url(https://via.placeholder.com/240x250?text=H);
 }
 
 .i img {
-  content: url(https://via.placeholder.com/480x80);
+  content: url(https://via.placeholder.com/480x80?text=I);
 }

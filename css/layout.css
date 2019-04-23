@@ -67,45 +67,45 @@ margin-right: 3px;
   }
 
   .a img {
-    content: url(https://via.placeholder.com/960x100);
+    content: url(https://via.placeholder.com/960x100?text=A);
     margin-top: 5px;
   }
   
   .b img {
-    content: url(https://via.placeholder.com/200x600);
+    content: url(https://via.placeholder.com/200x600?text=B);
   }
   
   .c img {
-    content: url(https://via.placeholder.com/380x200);
+    content: url(https://via.placeholder.com/380x200?text=C);
   }
   
   
   .d img {
-    content: url(https://via.placeholder.com/380x200);
+    content: url(https://via.placeholder.com/380x200?text=D);
   }
   
   
   .e img {
-    content: url(https://via.placeholder.com/190x250);
+    content: url(https://via.placeholder.com/190x250?text=E);
   }
   
   
   .f img {
-    content: url(https://via.placeholder.com/190x250);
+    content: url(https://via.placeholder.com/190x250?text=F);
   }
   
   
   .g img {
-    content: url(https://via.placeholder.com/190x250);
+    content: url(https://via.placeholder.com/190x250?text=G);
   }
   
   
   .h img {
-    content: url(https://via.placeholder.com/190x250);
+    content: url(https://via.placeholder.com/190x250?text=H);
   }
   
   .i img {
-    content: url(https://via.placeholder.com/760x150);
+    content: url(https://via.placeholder.com/760x150?text=I);
     margin-left: 5px;
   }
 
