@@ -1,40 +1,76 @@
-.a img {
-  content: url(https://via.placeholder.com/480x75);
+.a span {
+  display: block;
+  background-color: aliceblue;
+  width: 480px;
+  height: 75px;
+  text-align: center;
 }
 
-.b img {
-  content: url(https://via.placeholder.com/480x150);
+.b span {
+  display: block;
+  background-color: pink;
+  width: 480px;
+  height: 150px;
+  text-align: center;
 }
 
-.c img {
-  content: url(https://via.placeholder.com/480x125);
-}
-
-
-.d img {
-  content: url(https://via.placeholder.com/480x125);
-}
-
-
-.e img {
-  content: url(https://via.placeholder.com/240x250);
-}
-
-
-.f img {
-  content: url(https://via.placeholder.com/240x250);
+.c span {
+  display: block;
+  background-color: lightcyan;
+  width: 480px;
+  height: 125px;
+  text-align: center;
 }
 
 
-.g img {
-  content: url(https://via.placeholder.com/240x250);
+.d span {
+  display: block;
+  background-color:green;
+  width: 480px;
+  height: 125px;
+  text-align: center;
 }
 
 
-.h img {
-  content: url(https://via.placeholder.com/240x250);
+.e span {
+  display: block;
+  background-color: lightcyan;
+  width: 240px;
+  height: 250px;
+  text-align: center;
 }
 
-.i img {
-  content: url(https://via.placeholder.com/480x80);
+
+.f span {
+  display: inline-block;
+  background-color: darkblue;
+  width: 240px;
+  height: 250px;
+  text-align: center;
+}
+
+
+.g span {
+  display: inline-block;
+  background-color: yellow;
+  width: 240px;
+  height: 250px;
+  text-align: center;
+}
+
+
+.h span {
+  display: inline-block;
+  background-color: goldenrod;
+  width: 240px;
+  height: 250px;
+  text-align: center;
+}
+
+.j span {
+  display: block;
+  background-color: lavender;
+  width: 480px;
+  height: 80px;
+  text-align: center;
 }
