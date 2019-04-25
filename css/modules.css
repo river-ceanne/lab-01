@@ -68,7 +68,7 @@
 }
 
 .j span {
-  display: block;
+  display: inline-block;
   background-color: lavender;
   width: 480px;
   height: 80px;
