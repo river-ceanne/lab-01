@@ -7,9 +7,161 @@ main{
   margin-left: auto;
   margin-right: auto;
   display: grid;
+  grid-template-areas:
+      'header header'
+      'menu menu'
+      'main main' 
+      'right right'
+      'e f' 
+      'g h'
+      'footer footer';
 }
 
 p{
   position: relative;
   top: 50%;
+}
+
+.a{
+  grid-area: header;
+}
+
+.b {
+  grid-area: menu;
+}
+
+.c {
+  grid-area: main;
+}  
+
+.d {
+  grid-area: right;
+}
+
+.e {
+  grid-area: e;
+}
+
+.f {
+  grid-area: f;
+}
+
+.g {
+  grid-area: g;
+}
+
+.h {
+  grid-area: h;
+}
+
+.j {
+  grid-area: footer;
+}
+
+body{
+background-color: aliceblue;
+}
+
+.a span {
+background-color: tan;
+height: 300px;
+}
+
+.b span {
+background-color: hotpink;
+height: 300px; 
+}
+
+.c span {
+background-color: plum;
+height: 300px; 
+}
+
+.d span {
+background-color: slateblue;
+height: 300px; 
+}
+
+
+.e span{
+background-color: darkred;
+height: 250px; 
+}
+
+
+.f span {
+background-color: springgreen;
+height: 250px; 
+}
+
+
+.g span {
+background-color: burlywood;
+height: 250px; 
+}
+
+
+.h span {
+background-color: ivory;
+height: 250px; 
+}
+
+.j span{
+background-color: thistle;
+height: 150px;
+}
+
+}
+
+
+@media screen and (min-width: 961px) and (max-width: 1880px){
+
+body{
+background-color: whitesmoke;
+}
+
+main{
+display: grid;
+grid-template-areas:
+'header header header header header'
+'menu main main right right'
+'menu e f g h'
+'menu footer footer footer footer';
+background-color: darkgray;
+}
+
+.a{
+grid-area: header;
+}
+
+.b {
+grid-area: menu;
+}
+
+.c {
+grid-area: main;
+}  
+
+.d {
+grid-area: right;
+}
+
+.e {
+grid-area: e;
+}
+
+.f {
+grid-area: f;
+}
+
+.g {
+grid-area: g;
+}
+
+.h {
+grid-area: h;
+}
+
+.j {
+grid-area: footer;
 }
