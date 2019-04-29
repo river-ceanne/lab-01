@@ -8,10 +8,11 @@
   main{
     display: grid;
     grid-template-areas:
-      'header header header header header'
-      'menu main main right right'
-      'menu e f g h'
-      'menu footer footer footer footer';
+      'header menu'
+      'main right'
+      'e f '
+      'g h'
+      'footer footer';
     background-color: darkgray;
     }
   
@@ -56,15 +57,12 @@
   }
 
   .a span {
-    margin-top: 5px;
     background-color: tan;
-    width: 960px;
-    height: 100px;
+    height: 300px;
   }
   
   .b span {
     background-color: hotpink;
-    width: 200px;
     height: 300px; 
   }
   
@@ -75,7 +73,7 @@
   
   .d span {
     background-color: slateblue;
-    height: 200px; 
+    height: 300px; 
   }
   
   
