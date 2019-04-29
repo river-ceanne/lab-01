@@ -33,38 +33,37 @@
 
 
 .e span {
-  float: left;
   display: block;
   background-color: lightcyan;
-  width: 50%;
+  /* width: 50%; */
   height: 250px;
   text-align: center;
+  flex-direction: row;
 }
 
 
 .f span {
-  display: inline-block;
+  display: block;
   background-color: darkblue;
-  width: 50%;
+  /* width: auto; */
   height: 250px;
   text-align: center;
 }
 
 
 .g span {
-  float: left;
   display: block;
   background-color: yellow;
-  width: 50%;
+  /* width: 50%; */
   height: 250px;
   text-align: center;
 }
 
 
 .h span {
-  display: inline-block;
+  display: block;
   background-color: goldenrod;
-  width: 50%;
+  /* width: 50%; */
   height: 250px;
   text-align: center;
 }
